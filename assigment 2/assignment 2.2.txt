@@ -1,0 +1,20 @@
+function sum() {
+    var sume=0,sumo=0;
+
+    var n=prompt();
+    n='0'+n;
+    
+
+    for(var i=1;i<n.length;i++){
+        if(i%2==0)
+            sumo+=parseInt(n[i]);
+
+        else 
+            sume+=parseInt(n[i]);
+
+    }
+    console.log("Number is "+n);
+    console.log("Even sum= "+sume+" Odd sum= "+sumo);
+    
+}
+

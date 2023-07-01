@@ -1,0 +1,14 @@
+function validatephone(){
+    var n=prompt();
+    console.log("number is: "+n);
+    if((n.length)==10)
+    {
+        if(isNaN(n)){
+            console.log("invalid");}
+        else
+        { console.log("valid");}
+        
+    }
+    else{
+        console.log("invalid");}
+}
