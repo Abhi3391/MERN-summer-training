@@ -1,8 +1,8 @@
-1.Write a JavaScript program to display the current day and time in the following format.
-Today is : wednesday.
-Current time is : 10 PM : 30 : 38
+// 1.Write a JavaScript program to display the current day and time in the following format.
+// Today is : wednesday.
+// Current time is : 10 PM : 30 : 38
 
-code:
+// code:
 
 function h() {
     const birthday = new Date();
