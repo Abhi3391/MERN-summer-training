@@ -1,3 +1,8 @@
+// Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word into upper case.
+// Example string : ‘learn javascript from brain mentors’
+// Expected Output : ‘Learn Javascript From Brain Mentors
+
+
 function string() {
 
     var st=prompt();
@@ -24,4 +29,4 @@ function string() {
     console.log("string= "+st);
     console.log("output= "+fullstr);
     
-}S
+}
