@@ -1,0 +1,26 @@
+function date() {
+    var m=new Date();
+    var mm=m.getDate();
+    return mm;
+    
+}
+
+function mon() {
+    var m=new Date();
+    var mm=m.getMonth();
+    return mm;
+    
+}
+
+
+function year() {
+    var m=new Date();
+    var mm=m.getFullYear();
+    return mm;
+    
+}
+
+function dateformat(){
+
+        console.log((mon()+1)+"/"+(date())+"/"+(year()));
+}
