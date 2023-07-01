@@ -1,6 +1,6 @@
-3.WAP to print area and perimeter of rectangle , taking input from the user , using prompt
+// 3.WAP to print area and perimeter of rectangle , taking input from the user , using prompt
 
-code:
+// code:
 
 function rectengle() {
     var l=parseInt(prompt("Enter the length"));
