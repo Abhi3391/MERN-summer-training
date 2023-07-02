@@ -70,6 +70,12 @@ console.log(a[1])
 
 //  output = [5,4,1,2,3]
 
+function rotateArray(a){
+    var steps=2;
+    return (a.splice(a.length-steps,steps)).concat(a);
+}
+console.log(rotateArray(arr));
+
 
 // 9.Write a function to find the intersection of two arrays (common elements between the two arrays).
 
