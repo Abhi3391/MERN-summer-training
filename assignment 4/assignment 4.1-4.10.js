@@ -1,3 +1,31 @@
+// 1. Find Occurance of a target value in given array;
+// arr= [19, 22, 18, 19, 16, 18, 19, 21, 24];
+// target = 19;
+
+arr.filter(e=>e==target).length
+
+// 2 . Reverse a given string using reverse() method 
+// input = "BrainMentors"
+// output = "srotnemniarB"
+
+var output=input.split("").reverse().join("");
+
+// 3. Write a function that takes a string as input and returns the number of vowels (a, e, i, o, u) in the string.
+// Count of vowels in string;
+// ex:- str = "brainmentors"
+// 		output: count = 4
+
+var count=str.filter((e)=>(e=='a'||e=='e'||e=='i'||e=='o'||e=='u'))
+count.length
+
+
+// 4. Write a function to find the sum of all elements in an array.
+// ex:- arr = [1,2,3,4,5];
+
+array.reduce((acc,e)=>acc+e,0)
+
+
+
 // 5.Write a function to reverse the order of elements in an array.
 // don't Use reverse() Method 
 // ex:- var arr = ['a','b','c','d','e','f']
