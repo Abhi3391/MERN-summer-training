@@ -1,3 +1,8 @@
+// 3.Given two strings, return true if they are anagrams of one another
+
+// For example: Mary is an anagram of Army
+    
+
 function check(st1,st2){
     var flag=0;
     if(st2.length==st1.length){
