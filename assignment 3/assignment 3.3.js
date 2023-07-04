@@ -25,8 +25,8 @@ function check(st1,st2){
 function anagrum(){
     var st1=prompt('enter string1');
     var st2=prompt('enter string2');
-    st1.toLowerCase();
-    st2.toLowerCase();
+    st1=st1.toLowerCase();
+    st1=st2.toLowerCase();
     check(st1,st2);
 }
 
